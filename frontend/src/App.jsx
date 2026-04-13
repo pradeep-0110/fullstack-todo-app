@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const API_URL = "http://127.0.0.1:5000";
+  const API_URL = "https://todo-backend-pvy5.onrender.com";
 
   const [todos, setTodos] = useState([]);
   const [task, setTask] = useState("");
